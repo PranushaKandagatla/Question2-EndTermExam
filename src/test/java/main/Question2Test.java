@@ -11,13 +11,14 @@ import org.junit.Test;
 public class Question2Test {
 	Question2 qns2=new Question2();
 	List<Integer> number=Arrays.asList(7, 9, 6, 9, 125, 291, 564);
-//	@SuppressWarnings("unchecked")
+    //@SuppressWarnings("unchecked")
 	//Set<Integer> finalNumbers = (Set<Integer>) Arrays.asList(6, 7, 9, 125, 291, 564);
 	@SuppressWarnings("static-access")
 	@Test
 	public void listWithDuplicates() {
 		assertEquals(number,qns2.listWithDuplicates(number));
 	}
+
 /*	@SuppressWarnings("static-access")
 	@Test
 	public void removeDuplicateList() {
